@@ -191,5 +191,9 @@ return [
   "Utilities" => "Utilidades",
   "hot" => "Caliente",
   "backend" => "Backend",
-  "yajra-datatable" => "tabla de datos yajra"
+  "yajra-datatable" => "tabla de datos yajra",
+  //custom
+  "My_apps" => "Mis apps",
+  "All_my_apps" => "Todas mis apps",
+  "New_app" => "Nueva app",
 ];

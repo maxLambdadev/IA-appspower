@@ -5,8 +5,8 @@
 @section('content')
 
 @component('components.breadcrumb')
-@slot('li_1') Dashboards @endslot
-@slot('title') Dashboard @endslot
+@slot('li_1') @lang('translation.My_apps') @endslot
+@slot('title') @lang('translation.All_my_apps') @endslot
 @endcomponent
 
 

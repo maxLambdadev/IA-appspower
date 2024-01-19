@@ -5,8 +5,8 @@
 <?php $__env->startSection('content'); ?>
 
 <?php $__env->startComponent('components.breadcrumb'); ?>
-<?php $__env->slot('li_1'); ?> Dashboards <?php $__env->endSlot(); ?>
-<?php $__env->slot('title'); ?> Dashboard <?php $__env->endSlot(); ?>
+<?php $__env->slot('li_1'); ?> <?php echo app('translator')->get('translation.My_apps'); ?> <?php $__env->endSlot(); ?>
+<?php $__env->slot('title'); ?> <?php echo app('translator')->get('translation.All_my_apps'); ?> <?php $__env->endSlot(); ?>
 <?php echo $__env->renderComponent(); ?>
 
 

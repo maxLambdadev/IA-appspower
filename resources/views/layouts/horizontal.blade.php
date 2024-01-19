@@ -8,7 +8,7 @@
                         <img src="{{ URL::asset ('build/images/logo.svg') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ URL::asset ('build/images/logo-dark.png') }}" alt="" height="17">
+                        <img src="{{ URL::asset ('build/images/logo-dark.png') }}" alt="" width="90">
                     </span>
                 </a>
 
@@ -17,7 +17,7 @@
                         <img src="{{ URL::asset ('build/images/logo-light.svg') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ URL::asset ('build/images/logo-light.png') }}" alt="" height="19">
+                        <img src="{{ URL::asset ('build/images/logo-light.png') }}" alt="" width="90">
                     </span>
                 </a>
             </div>
@@ -189,14 +189,8 @@
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     @switch(Session::get('lang'))
-                    @case('ru')
-                    <img src="{{ URL::asset('build/images/flags/russia.jpg')}}" alt="Header Language" height="16"> <span class="align-middle">Russian</span>
-                    @break
-                    @case('it')
-                    <img src="{{ URL::asset('build/images/flags/italy.jpg')}}" alt="Header Language" height="16"> <span class="align-middle">Italian</span>
-                    @break
-                    @case('de')
-                    <img src="{{ URL::asset('build/images/flags/germany.jpg')}}" alt="Header Language" height="16"> <span class="align-middle">German</span>
+                    @case('pt')
+                    <img src="{{ URL::asset('build/images/flags/portugal.jpg')}}" alt="Header Language" height="16"> <span class="align-middle">Spanish</span>
                     @break
                     @case('es')
                     <img src="{{ URL::asset('build/images/flags/spain.jpg')}}" alt="Header Language" height="16"> <span class="align-middle">Spanish</span>
@@ -213,23 +207,14 @@
                     </a>
                     <!-- item-->
                     <a href="{{ url('index/es') }}" class="dropdown-item notify-item language" data-lang="sp">
-                        <img src="{{ URL::asset ('build/images/flags/spain.jpg') }}" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
+                        <img src="{{ URL::asset ('build/images/flags/spain.jpg') }}" alt="user-image" class="me-1" height="12"> <span class="align-middle">Español</span>
                     </a>
 
                     <!-- item-->
-                    <a href="{{ url('index/de') }}" class="dropdown-item notify-item language" data-lang="gr">
-                        <img src="{{ URL::asset ('build/images/flags/germany.jpg') }}" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
+                    <a href="{{ url('index/pt') }}" class="dropdown-item notify-item language" data-lang="pt">
+                        <img src="{{ URL::asset ('build/images/flags/portugal.jpg') }}" alt="user-image" class="me-1" height="12"> <span class="align-middle">Português</span>
                     </a>
-
-                    <!-- item-->
-                    <a href="{{ url('index/it') }}" class="dropdown-item notify-item language" data-lang="it">
-                        <img src="{{ URL::asset ('build/images/flags/italy.jpg') }}" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
-                    </a>
-
-                    <!-- item-->
-                    <a href="{{ url('index/ru') }}" class="dropdown-item notify-item language" data-lang="ru">
-                        <img src="{{ URL::asset ('build/images/flags/russia.jpg') }}" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
-                    </a>
+                    
                 </div>
             </div>
 

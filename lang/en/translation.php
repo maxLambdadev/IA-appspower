@@ -190,5 +190,9 @@ return [
   "Utilities" => "Utilities",
   "hot" => "Hot",
   "backend" => "Backend",
-  "yajra-datatable" => "Yajra Datatable"
+  "yajra-datatable" => "Yajra Datatable",
+  //custom
+  "My_apps" => "My apps",
+  "All_my_apps" => "All my apps",
+  "New_app" => "New app",
 ];
