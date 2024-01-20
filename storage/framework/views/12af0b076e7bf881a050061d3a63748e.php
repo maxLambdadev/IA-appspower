@@ -22,7 +22,7 @@
 
     <div class="container-fluid position-relative min-vh-100 px-0">
         <div class="video-wrap position-absolute w-100 h-100 overflow-hidden top-0 z-2">
-            <video poster="images/jobs.png" preload="" muted="" autoplay="" loop="" playsinline="" class="h-100 z-1">
+            <video poster="images/jobs.png" preload="" muted="" autoplay="" loop="" playsinline="" class="min-vw-100 min-vh-100 z-1">
                 <source src="https://appspower.s3.amazonaws.com/videos/en+construccion.mp4" type="video/mp4">
                 <source src="https://appspower.s3.amazonaws.com/videos/en+construccion.webm" type="video/webm">
             </video>
