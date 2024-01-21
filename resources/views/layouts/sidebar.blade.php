@@ -15,8 +15,8 @@
                         <span key="t-dashboards">@lang('translation.My_apps')</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="index" key="t-default">@lang('translation.All_my_apps')</a></li>
-                        <li><a href="index" key="t-default">@lang('translation.New_app')</a></li>
+                        <li><a href="all-my-apps" key="t-default">@lang('translation.All_my_apps')</a></li>
+                        <li><a href="all-my-apps" key="t-default">@lang('translation.New_app')</a></li>
                     </ul>
                 </li>
 
