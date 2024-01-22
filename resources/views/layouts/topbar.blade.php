@@ -2,8 +2,8 @@
     <div class="navbar-header">
         <div class="d-flex">
             <!-- LOGO -->
-            <div class="navbar-brand-box">
-                <a href="index" class="logo logo-dark">
+            <div class="navbar-brand-box d-flex flex-column justify-content-center">
+                <a href="/" class="logo logo-dark">
                     <span class="logo-sm">
                         <img src="{{ URL::asset('build/images/logo.svg') }}" alt="" height="22">
                     </span>
@@ -12,7 +12,7 @@
                     </span>
                 </a>
 
-                <a href="index" class="logo logo-light">
+                <a href="/" class="logo logo-light">
                     <span class="logo-sm">
                         <img src="{{ URL::asset('build/images/logo-light.svg') }}" alt="" height="22">
                     </span>
