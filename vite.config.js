@@ -11,6 +11,7 @@ export default vite.defineConfig({
         rtl: true,
         outDir: 'public/build/',
         cssCodeSplit: true,
+        minify: true,
         rollupOptions: {
             output: {
               assetFileNames: (css) => {
@@ -31,12 +32,18 @@ export default vite.defineConfig({
                     'resources/scss/bootstrap.scss',
                     'resources/scss/icons.scss',
                     'resources/scss/app.scss',
+                    'resources/css/pages/all-my-apps.css',
+                    'resources/css/panel.css',
                 ],
                 refresh: true,                
             }
         ),
          viteStaticCopy({
             targets: [
+                {
+                    src: 'resources/canvas',
+                    dest: ''
+                },
                 {
                     src: 'resources/fonts',
                     dest: ''

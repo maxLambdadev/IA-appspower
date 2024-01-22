@@ -36,7 +36,7 @@ function getChartColorsArray(chartId) {
 //  subscribe modal
 
 setTimeout(function () {
-    $('#subscribeModal').modal('show');
+    // $('#subscribeModal').modal('show');
 }, 2000);
 
 

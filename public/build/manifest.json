@@ -1,4 +1,14 @@
 {
+  "resources/css/pages/all-my-apps.css": {
+    "file": "css/all-my-apps.min.css",
+    "isEntry": true,
+    "src": "resources/css/pages/all-my-apps.css"
+  },
+  "resources/css/panel.css": {
+    "file": "css/panel.min.css",
+    "isEntry": true,
+    "src": "resources/css/panel.css"
+  },
   "resources/fonts/boxicons.eot": {
     "file": "icons/boxicons.eot",
     "src": "resources/fonts/boxicons.eot"

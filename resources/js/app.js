@@ -52,7 +52,7 @@ File: Main Js File
 
     function initMetisMenu() {
         //metis menu
-        $("#side-menu").metisMenu();
+        // $("#side-menu").metisMenu();
     }
 
     function initLeftMenuCollapse() {

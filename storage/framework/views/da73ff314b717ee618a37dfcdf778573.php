@@ -6,5 +6,9 @@
 <link href="<?php echo e(URL::asset('build/css/icons.min.css')); ?>" rel="stylesheet" type="text/css" />
 <!-- App Css-->
 <link href="<?php echo e(URL::asset('build/css/app.min.css')); ?>" id="app-style" rel="stylesheet" type="text/css" />
+
+<!-- Panel Css -->
+<link href="<?php echo e(URL::asset('build/css/panel.min.css')); ?>" rel="stylesheet" type="text/css" />
+
 <!-- App js -->
 <script src="<?php echo e(URL::asset('build/js/plugin.js')); ?>"></script><?php /**PATH G:\bs\Luisory\Oscar\AI\IA-appspower\resources\views/layouts/head-css.blade.php ENDPATH**/ ?>
