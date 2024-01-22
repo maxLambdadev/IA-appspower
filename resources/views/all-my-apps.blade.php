@@ -13,7 +13,7 @@
 @endcomponent
 
 <div class="row">
-    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-3">
+    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-3 py-2">
         <div class="product-info bg-white border cursor-pointer">
             <div class="row mx-0 pt-3 border-bottom">
                 <div class="col-3 pe-0">
@@ -23,10 +23,10 @@
                     <h5 class="product-name text-primary fs-5 fw-bold pb-4">
                         AI trained chatbot
                     </h5>
-                    <h5 class="product-description fs-5 pb-1 text-dark">
+                    <h5 class="product-description fs-5 pb-1 text-muted">
                         Chatbot con IA y entrenamiento personalizado
                     </h5>
-                    <h5 class="product-version fs-5 text-dark">
+                    <h5 class="product-version fs-5 text-muted">
                         Versión Business
                     </h5>
                 </div>
@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-3">
+    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-3 py-2">
         <div class="new-app bg-white border cursor-pointer h-100 d-flex flex-column" data-bs-toggle="modal" data-bs-target="#new-app-card-modal">
             <div class="row mx-0 pt-3 border-bottom flex-grow-1">
                 <div class="col-3 pe-0">
@@ -60,7 +60,7 @@
                     <h5 class="new-card-title fs-5 fw-bold pb-4">
                         Sumar una nueva app
                     </h5>
-                    <h5 class="product-description fs-5 text-dark">
+                    <h5 class="product-description fs-5 text-muted">
                         Haz clic aquí para sumar una nueva app en tu cuenta
                     </h5>
                 </div>
@@ -83,7 +83,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row py-1">
+                <div class="row py-2">
                     <div class="col-md-3">
                         Quiero la app:
                     </div>
@@ -94,7 +94,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="row py-1">
+                <div class="row py-2">
                     <div class="col-md-3">
                         Para la plataforma:
                     </div>
@@ -105,12 +105,12 @@
                         </select>
                     </div>
                 </div>
-                <div class="row py-1">
+                <div class="row py-2">
                     <div class="col-md-3">
                         En la versión:
                     </div>
                     <div class="col-md-7">
-                        <div class="form-check form-switch form-switch-md mb-3 text-end">
+                        <div class="form-check form-switch form-switch-md mb-3 text-end ps-0">
                             <label class="monthly form-check-label me-5" for="monthly-yearly">Monthly</label>
                             <div class="d-inline-block">
                                 <input class="form-check-input d-inline-block" type="checkbox" id="monthly-yearly">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-md-3">
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-9 py-2">
 
                         <!-- Content
 		============================================= -->
@@ -129,7 +129,7 @@
                             <div class="content-wrap">
                                 <div class="container">
                                     <div class="row pricing col-mb-30 mb-4">
-                                        <div class="col-md-6 col-xl-4">
+                                        <div class="col-md-6 col-xl-4 py-2">
                                             <div class="pricing-box border border-2 rounded-3 h-shadow shadow-ts px-4 py-3">
                                                 <i class="bx bx-walk text-primary fs-3"></i>
                                                 <div class="pricing-title border-bottom-0 pb-0">
@@ -154,7 +154,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-xl-4">
+                                        <div class="col-md-6 col-xl-4 py-2">
                                             <div class="pricing-box border border-2 rounded-3 h-shadow shadow-ts px-4 py-3">
                                                 <i class="bx bx-walk text-primary fs-3"></i>
                                                 <div class="pricing-title border-bottom-0 pb-0">
@@ -181,7 +181,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 col-xl-4">
+                                        <div class="col-md-6 col-xl-4 py-2">
                                             <div class="pricing-box border border-2 rounded-3 h-shadow shadow-ts px-4 py-3">
                                                 <i class="bx bx-walk text-primary fs-3"></i>
                                                 <div class="pricing-title border-bottom-0 pb-0">
@@ -214,6 +214,9 @@
                                 </div>
                             </div>
                         </section><!-- #content end -->
+                        <p class="text-center mt-5 mb-0">
+                            Todos los planes incluyen 3 días de prueba gratis. Puedes cancelar los planes en cualquier momento.
+                        </p>
                     </div>
                 </div>
             </div>
